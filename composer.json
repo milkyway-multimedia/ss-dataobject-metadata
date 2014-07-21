@@ -1,0 +1,24 @@
+{
+    "name"       : "milkyway-multimedia/ss-dataobject-metadata",
+    "description": "Add metadata to your dataobjects via many-many-extraData",
+    "type"       : "silverstripe-module",
+    "keywords"   : ["silverstripe", "metadata", "mwm", "dataobjects", "many-many"],
+    "license"    : "MIT",
+    "authors"    : [
+        {
+            "name" : "Mellisa Hankins",
+            "email": "mell@milkywaymultimedia.com.au"
+        }
+    ],
+    "require"    : {
+        "silverstripe/framework": "~3.1"
+    },
+    "suggest"    : {
+        "ajshort/gridfieldextensions"         : "Managing many-many relations",
+        "colymba/gridfield-bulk-editing-tools": "Managing many-many relations",
+        "milkyway-multimedia/ss-mwm-autocomplete": "Contains alternative adding of inline relations when installed with ajshort/gridfieldextensions"
+    },
+    "extra"      : {
+        "installer-name": "dataobject-metadata"
+    }
+}
