@@ -1,6 +1,6 @@
 {
     "name"       : "milkyway-multimedia/ss-dataobject-metadata",
-    "description": "Add metadata to your dataobjects via many-many-extraData",
+    "description": "Add metadata to your dataobjects via many_many_extraFields",
     "type"       : "silverstripe-module",
     "keywords"   : ["silverstripe", "metadata", "mwm", "dataobjects", "many-many"],
     "license"    : "MIT",
