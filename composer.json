@@ -14,7 +14,7 @@
         "silverstripe/framework": "~3.1"
     },
     "suggest"    : {
-        "ajshort/gridfieldextensions"         : "Managing many-many relations",
+        "ajshort/silverstripe-gridfieldextensions"         : "Managing many-many relations",
         "colymba/gridfield-bulk-editing-tools": "Managing many-many relations",
         "milkyway-multimedia/ss-mwm-autocomplete": "Contains alternative adding of inline relations when installed with ajshort/gridfieldextensions"
     },
