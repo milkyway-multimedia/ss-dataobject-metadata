@@ -7,7 +7,8 @@
  * @package milkyway-multimedia/ss-dataobject-metadata
  * @author Mellisa Hankins <mell@milkywaymultimedia.com.au>
  */
-class MetadataType extends DataObject {
+class MetadataType extends DataObject
+{
 
     private static $singular_name = 'Metadata';
 
@@ -25,14 +26,17 @@ class MetadataType extends DataObject {
         'Enabled'  => true,
     ];
 
-    public function onBeforeWrite() {
+    public function onBeforeWrite()
+    {
         parent::onBeforeWrite();
 
-        if(!$this->Reference)
+        if (!$this->Reference) {
             $this->Reference = implode(' - ', $this->referenceParts());
+        }
     }
 
-    public function referenceParts() {
+    public function referenceParts()
+    {
         $parts = [$this->Title];
         return $parts;
     }
